@@ -1,0 +1,56 @@
+[
+  {
+    "id": "lmr_wraith",
+    "class": "LMR",
+    "stats": { "hp": 92, "armor": 0.08, "moveSpeed": 30, "boostSpeed": 50, "turnRate": 1.0, "stability": 0.2 },
+    "hitboxPreset": "LMR_SMALL",
+    "weapons": { "primaryWeaponId": "pulse_rifle", "secondaryWeaponId": "knife" },
+    "abilities": ["ew_pulse", "pseudo_stealth", "jamming_decoy", "core_hack"],
+    "visuals": { "modelRef": "ir-wraith-dedicated-v2", "iconRef": null, "colorSlots": ["cyan", "black", "red"] }
+  },
+  {
+    "id": "lmr_sprinter",
+    "class": "LMR",
+    "stats": { "hp": 84, "armor": 0.05, "moveSpeed": 34, "boostSpeed": 58, "turnRate": 1.12, "stability": 0.16 },
+    "hitboxPreset": "LMR_SMALL",
+    "weapons": { "primaryWeaponId": "burst_smg", "secondaryWeaponId": "dash_blade" },
+    "abilities": ["quick_dash", "overboost", "quick_side", "sonic_break"],
+    "visuals": { "modelRef": "mock_lmr_sprinter", "iconRef": null, "colorSlots": ["yellow", "white", "gunmetal"] }
+  },
+  {
+    "id": "lmr_scout_eye",
+    "class": "LMR",
+    "stats": { "hp": 78, "armor": 0.04, "moveSpeed": 32, "boostSpeed": 52, "turnRate": 1.05, "stability": 0.14 },
+    "hitboxPreset": "LMR_SMALL",
+    "weapons": { "primaryWeaponId": "marker_carbine", "secondaryWeaponId": "recon_drone" },
+    "abilities": ["area_scan", "suppression_pulse", "target_beacon", "overwatch"],
+    "visuals": { "modelRef": "mock_lmr_scout_eye", "iconRef": null, "colorSlots": ["green", "white", "cyan"] }
+  },
+  {
+    "id": "mmr_lancer",
+    "class": "MMR",
+    "stats": { "hp": 132, "armor": 0.18, "moveSpeed": 24, "boostSpeed": 38, "turnRate": 0.82, "stability": 0.42 },
+    "hitboxPreset": "MMR_MED",
+    "weapons": { "primaryWeaponId": "rail_lance", "secondaryWeaponId": "counter_fire" },
+    "abilities": ["precision_stance", "counter_fire", "spear_step", "pierce_bolt"],
+    "visuals": { "modelRef": "mock_mmr_lancer", "iconRef": null, "colorSlots": ["white", "cyan", "red"] }
+  },
+  {
+    "id": "hmr_iron_wall",
+    "class": "HMR",
+    "stats": { "hp": 180, "armor": 0.28, "moveSpeed": 18, "boostSpeed": 29, "turnRate": 0.62, "stability": 0.72 },
+    "hitboxPreset": "HMR_LARGE",
+    "weapons": { "primaryWeaponId": "heavy_shield", "secondaryWeaponId": "shock_pile" },
+    "abilities": ["shield_wall", "bulldozer_charge", "anchor_deploy", "shockwave_slam"],
+    "visuals": { "modelRef": "mock_hmr_iron_wall", "iconRef": null, "colorSlots": ["white", "amber", "gunmetal"] }
+  },
+  {
+    "id": "hmr_siege_breaker",
+    "class": "HMR",
+    "stats": { "hp": 138, "armor": 0.22, "moveSpeed": 20, "boostSpeed": 31, "turnRate": 0.64, "stability": 0.58 },
+    "hitboxPreset": "HMR_LARGE",
+    "weapons": { "primaryWeaponId": "heavy_railgun", "secondaryWeaponId": "missile_pod" },
+    "abilities": ["rail_charge", "full_break_shot", "stabilizer", "missile_salvo"],
+    "visuals": { "modelRef": "mock_hmr_siege_breaker", "iconRef": null, "colorSlots": ["white", "red", "gunmetal"] }
+  }
+]
