@@ -1,0 +1,325 @@
+[
+  {
+    "id": "ew_pulse",
+    "name": "電子撹乱ポッド",
+    "cooldown": 9,
+    "resource": "en",
+    "cost": 30,
+    "duration": 1.5,
+    "targeting": "aoe",
+    "radius": 18,
+    "effects": [
+      { "type": "damage", "value": 12 },
+      { "type": "stun", "duration": 1.5 },
+      { "type": "marked", "duration": 5 }
+    ]
+  },
+  {
+    "id": "pseudo_stealth",
+    "name": "疑似ステルス",
+    "cooldown": 18,
+    "resource": "en",
+    "cost": 58,
+    "duration": 6,
+    "targeting": "self",
+    "effects": [
+      { "type": "stealth", "duration": 6 },
+      { "type": "invulnerable", "duration": 0.7 },
+      { "type": "marked", "duration": 8, "radius": 24 }
+    ]
+  },
+  {
+    "id": "jamming_decoy",
+    "name": "ジャミングデコイ",
+    "cooldown": 10,
+    "resource": "en",
+    "cost": 28,
+    "duration": 4,
+    "targeting": "self",
+    "effects": [
+      { "type": "decoy", "count": 2 },
+      { "type": "stealth", "duration": 2.4 },
+      { "type": "slow", "duration": 2, "radius": 16 }
+    ]
+  },
+  {
+    "id": "core_hack",
+    "name": "コアハック",
+    "cooldown": 18,
+    "resource": "core",
+    "cost": 24,
+    "duration": 8,
+    "targeting": "lockTarget",
+    "distance": 80,
+    "effects": [
+      { "type": "damage", "value": 20 },
+      { "type": "marked", "duration": 10 },
+      { "type": "armorBreak", "duration": 8 },
+      { "type": "stun", "duration": 0.45 }
+    ]
+  },
+  {
+    "id": "quick_dash",
+    "name": "高速回避",
+    "cooldown": 6,
+    "resource": "en",
+    "cost": 26,
+    "duration": 0.3,
+    "targeting": "self",
+    "effects": [
+      { "type": "dash", "distance": 15 },
+      { "type": "decoy", "count": 1 }
+    ]
+  },
+  {
+    "id": "overboost",
+    "name": "オーバーブースト",
+    "cooldown": 16,
+    "resource": "en",
+    "cost": 62,
+    "duration": 8,
+    "targeting": "self",
+    "effects": [
+      { "type": "boost", "duration": 8 },
+      { "type": "invulnerable", "duration": 0.55 },
+      { "type": "decoy", "count": 3 }
+    ]
+  },
+  {
+    "id": "quick_side",
+    "name": "クイックサイド",
+    "cooldown": 5,
+    "resource": "en",
+    "cost": 20,
+    "duration": 0.25,
+    "targeting": "self",
+    "effects": [
+      { "type": "sideDash", "distance": 14 },
+      { "type": "decoy", "count": 1 },
+      { "type": "invulnerable", "duration": 0.28 }
+    ]
+  },
+  {
+    "id": "sonic_break",
+    "name": "ソニックブレイク",
+    "cooldown": 15,
+    "resource": "core",
+    "cost": 24,
+    "duration": 0.45,
+    "targeting": "line",
+    "distance": 18,
+    "effects": [
+      { "type": "dash", "distance": 18 },
+      { "type": "damage", "value": 16, "radius": 11 },
+      { "type": "stun", "duration": 0.35 }
+    ]
+  },
+  {
+    "id": "area_scan",
+    "name": "全域スキャン",
+    "cooldown": 8,
+    "resource": "en",
+    "cost": 34,
+    "duration": 8,
+    "targeting": "allEnemies",
+    "effects": [
+      { "type": "marked", "duration": 8 },
+      { "type": "coreGain", "value": 12 }
+    ]
+  },
+  {
+    "id": "suppression_pulse",
+    "name": "制圧パルス",
+    "cooldown": 18,
+    "resource": "en",
+    "cost": 60,
+    "duration": 2.2,
+    "targeting": "aoe",
+    "radius": 30,
+    "effects": [
+      { "type": "damage", "value": 24 },
+      { "type": "stun", "duration": 2.2 },
+      { "type": "slow", "duration": 5 },
+      { "type": "marked", "duration": 10 }
+    ]
+  },
+  {
+    "id": "target_beacon",
+    "name": "ターゲットビーコン",
+    "cooldown": 8,
+    "resource": "en",
+    "cost": 24,
+    "duration": 12,
+    "targeting": "lockTarget",
+    "distance": 95,
+    "effects": [
+      { "type": "marked", "duration": 12 },
+      { "type": "armorBreak", "duration": 5 }
+    ]
+  },
+  {
+    "id": "overwatch",
+    "name": "オーバーウォッチ",
+    "cooldown": 18,
+    "resource": "core",
+    "cost": 26,
+    "duration": 1,
+    "targeting": "markedEnemies",
+    "effects": [
+      { "type": "projectileVolley", "count": 5, "damage": 26 },
+      { "type": "stun", "duration": 0.35 }
+    ]
+  },
+  {
+    "id": "precision_stance",
+    "name": "射撃姿勢固定",
+    "cooldown": 7,
+    "resource": "en",
+    "cost": 36,
+    "duration": 5,
+    "targeting": "line",
+    "effects": [
+      { "type": "precision", "duration": 5 },
+      { "type": "railShot", "damage": 92, "pierce": 2 }
+    ]
+  },
+  {
+    "id": "counter_fire",
+    "name": "カウンターシステム",
+    "cooldown": 16,
+    "resource": "en",
+    "cost": 56,
+    "duration": 7,
+    "targeting": "self",
+    "effects": [
+      { "type": "counter", "duration": 7 },
+      { "type": "shield", "duration": 3 }
+    ]
+  },
+  {
+    "id": "spear_step",
+    "name": "スピアステップ",
+    "cooldown": 7,
+    "resource": "en",
+    "cost": 24,
+    "duration": 4,
+    "targeting": "lockTarget",
+    "distance": 88,
+    "effects": [
+      { "type": "dash", "distance": 9 },
+      { "type": "precision", "duration": 4 },
+      { "type": "railShot", "damage": 44, "pierce": 1 }
+    ]
+  },
+  {
+    "id": "pierce_bolt",
+    "name": "ピアスボルト",
+    "cooldown": 18,
+    "resource": "core",
+    "cost": 26,
+    "duration": 6,
+    "targeting": "line",
+    "effects": [
+      { "type": "precision", "duration": 3 },
+      { "type": "railShot", "damage": 220, "pierce": 5 },
+      { "type": "armorBreak", "duration": 6, "radius": 20 }
+    ]
+  },
+  {
+    "id": "shield_wall",
+    "name": "シールドウォール",
+    "cooldown": 18,
+    "resource": "en",
+    "cost": 32,
+    "duration": 10,
+    "targeting": "ground",
+    "effects": [{ "type": "shieldSpawn", "hp": 2500, "width": 8, "height": 4 }]
+  },
+  {
+    "id": "bulldozer_charge",
+    "name": "ブルドーザーチャージ",
+    "cooldown": 14,
+    "resource": "en",
+    "cost": 28,
+    "duration": 0.9,
+    "targeting": "cone",
+    "distance": 10,
+    "width": 3,
+    "effects": [{ "type": "knockback", "force": 1.0 }, { "type": "stun", "duration": 0.3 }]
+  },
+  {
+    "id": "anchor_deploy",
+    "name": "アンカー展開",
+    "cooldown": 22,
+    "resource": "en",
+    "cost": 18,
+    "duration": 6,
+    "targeting": "self",
+    "effects": [{ "type": "stability", "value": 1.0 }, { "type": "shieldBonus", "value": 0.3 }]
+  },
+  {
+    "id": "shockwave_slam",
+    "name": "衝撃波スラム",
+    "cooldown": 26,
+    "resource": "core",
+    "cost": 24,
+    "duration": 0.6,
+    "targeting": "aoe",
+    "radius": 5,
+    "effects": [{ "type": "stun", "duration": 0.6 }]
+  },
+  {
+    "id": "rail_charge",
+    "name": "レールチャージ",
+    "cooldown": 8.5,
+    "resource": "en",
+    "cost": 42,
+    "duration": 0.8,
+    "targeting": "line",
+    "effects": [
+      { "type": "railShot", "damage": 170, "pierce": 4 },
+      { "type": "armorBreak", "duration": 6 }
+    ]
+  },
+  {
+    "id": "full_break_shot",
+    "name": "フルブレイクショット",
+    "cooldown": 16,
+    "resource": "en",
+    "cost": 70,
+    "duration": 1,
+    "targeting": "line",
+    "effects": [
+      { "type": "railShot", "damage": 360, "pierce": 8 },
+      { "type": "damage", "value": 42, "radius": 28 },
+      { "type": "armorBreak", "duration": 10 }
+    ]
+  },
+  {
+    "id": "stabilizer",
+    "name": "スタビライザー",
+    "cooldown": 9,
+    "resource": "en",
+    "cost": 30,
+    "duration": 5,
+    "targeting": "self",
+    "effects": [
+      { "type": "anchor", "duration": 2.2 },
+      { "type": "precision", "duration": 5 },
+      { "type": "shield", "duration": 2.2 }
+    ]
+  },
+  {
+    "id": "missile_salvo",
+    "name": "ミサイルサルボ",
+    "cooldown": 20,
+    "resource": "core",
+    "cost": 28,
+    "duration": 1.35,
+    "targeting": "cone",
+    "effects": [
+      { "type": "projectileVolley", "count": 7, "damage": 34 },
+      { "type": "blast", "radius": 2.7 }
+    ]
+  }
+]
