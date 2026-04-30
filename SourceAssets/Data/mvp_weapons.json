@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pulse_rifle",
+    "type": "energy",
+    "damage": 8,
+    "fireRate": 8.3,
+    "range": 64,
+    "reloadTime": 0,
+    "knockbackForce": 0.12,
+    "projectile": { "mode": "projectile", "speed": 64, "radius": 0.18 }
+  },
+  {
+    "id": "rail_lance",
+    "type": "energy",
+    "damage": 14,
+    "fireRate": 4.7,
+    "range": 74,
+    "reloadTime": 0,
+    "knockbackForce": 0.32,
+    "projectile": { "mode": "projectile", "speed": 74, "radius": 0.2 }
+  },
+  {
+    "id": "heavy_shield",
+    "type": "ballistic",
+    "damage": 12,
+    "fireRate": 4,
+    "range": 56,
+    "reloadTime": 0,
+    "knockbackForce": 0.55,
+    "projectile": { "mode": "projectile", "speed": 56, "radius": 0.2 }
+  },
+  {
+    "id": "shock_pile",
+    "type": "melee",
+    "damage": 160,
+    "fireRate": 0.7,
+    "range": 5,
+    "reloadTime": 0,
+    "knockbackForce": 1.0,
+    "projectile": { "mode": "melee", "width": 3, "distance": 5 }
+  }
+]
