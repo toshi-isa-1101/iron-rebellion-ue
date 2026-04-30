@@ -1,0 +1,213 @@
+{
+  "schema": "iron-rebellion-character-3d-manifest/v1",
+  "generatedAt": "2026-04-30T06:23:25.682Z",
+  "units": [
+    {
+      "id": "lmr_wraith",
+      "displayName": "WRAITH",
+      "className": "LMR",
+      "modelRef": "ir-wraith-dedicated-v3-production-blockout",
+      "glb": "designs/3D/models/lmr_wraith.glb",
+      "designSheet": "designs/charactor/lmr_wraith/lmr_wraith_three_view_weapon_sheet.png",
+      "weapons": [
+        {
+          "id": "pulse_rifle",
+          "role": "primary",
+          "mount": "right_hand",
+          "gameplay": {
+            "damage": 8,
+            "fireRate": 8.3,
+            "range": 64
+          }
+        },
+        {
+          "id": "emergency_knife",
+          "role": "secondary",
+          "mount": "left_forearm",
+          "gameplay": {
+            "damage": 48,
+            "fireRate": 1.4,
+            "range": 2.6
+          }
+        }
+      ],
+      "fileSizeBytes": 513804
+    },
+    {
+      "id": "lmr_sprinter",
+      "displayName": "SPRINTER",
+      "className": "LMR",
+      "modelRef": "ir-sprinter-production-blockout",
+      "glb": "designs/3D/models/lmr_sprinter.glb",
+      "designSheet": "designs/charactor/lmr_sprinter/lmr_sprinter_three_view_weapon_sheet.png",
+      "weapons": [
+        {
+          "id": "burst_smg",
+          "role": "primary",
+          "mount": "right_forearm",
+          "gameplay": {
+            "damage": 6,
+            "fireRate": 12.5,
+            "range": 48
+          }
+        },
+        {
+          "id": "dash_blade",
+          "role": "secondary",
+          "mount": "left_forearm",
+          "gameplay": {
+            "damage": 72,
+            "fireRate": 1.2,
+            "range": 3.2
+          }
+        }
+      ],
+      "fileSizeBytes": 441644
+    },
+    {
+      "id": "lmr_scout_eye",
+      "displayName": "SCOUT-EYE",
+      "className": "LMR",
+      "modelRef": "ir-scout-eye-production-blockout",
+      "glb": "designs/3D/models/lmr_scout_eye.glb",
+      "designSheet": "designs/charactor/lmr_scout_eye/lmr_scout_eye_three_view_weapon_sheet.png",
+      "weapons": [
+        {
+          "id": "marker_carbine",
+          "role": "primary",
+          "mount": "right_hand",
+          "gameplay": {
+            "damage": 7,
+            "fireRate": 7.2,
+            "range": 72
+          }
+        },
+        {
+          "id": "recon_drone",
+          "role": "secondary",
+          "mount": "shoulder_pod",
+          "gameplay": {
+            "damage": 0,
+            "fireRate": 0.5,
+            "range": 95
+          }
+        }
+      ],
+      "fileSizeBytes": 582572
+    },
+    {
+      "id": "mmr_lancer",
+      "displayName": "LANCER",
+      "className": "MMR",
+      "modelRef": "ir-lancer-production-blockout",
+      "glb": "designs/3D/models/mmr_lancer.glb",
+      "designSheet": "designs/charactor/mmr_lancer/mmr_lancer_three_view_weapon_sheet.png",
+      "weapons": [
+        {
+          "id": "rail_lance",
+          "role": "primary",
+          "mount": "right_hand",
+          "gameplay": {
+            "damage": 14,
+            "fireRate": 4.7,
+            "range": 74
+          }
+        },
+        {
+          "id": "counter_fire_shield",
+          "role": "secondary",
+          "mount": "left_arm",
+          "gameplay": {
+            "damage": 0,
+            "duration": 7,
+            "range": 0
+          }
+        }
+      ],
+      "fileSizeBytes": 389020
+    },
+    {
+      "id": "hmr_iron_wall",
+      "displayName": "IRON WALL",
+      "className": "HMR",
+      "modelRef": "ir-iron-wall-production-blockout",
+      "glb": "designs/3D/models/hmr_iron_wall.glb",
+      "designSheet": "designs/charactor/hmr_iron_wall/hmr_iron_wall_three_view_weapon_sheet.png",
+      "weapons": [
+        {
+          "id": "heavy_shield",
+          "role": "primary",
+          "mount": "left_arm",
+          "gameplay": {
+            "damage": 12,
+            "fireRate": 4,
+            "range": 56,
+            "knockbackForce": 0.55
+          }
+        },
+        {
+          "id": "shock_pile",
+          "role": "secondary",
+          "mount": "right_arm",
+          "gameplay": {
+            "damage": 160,
+            "fireRate": 0.7,
+            "range": 5,
+            "knockbackForce": 1
+          }
+        }
+      ],
+      "fileSizeBytes": 414484
+    },
+    {
+      "id": "hmr_siege_breaker",
+      "displayName": "SIEGE BREAKER",
+      "className": "HMR",
+      "modelRef": "ir-siege-breaker-production-blockout",
+      "glb": "designs/3D/models/hmr_siege_breaker.glb",
+      "designSheet": "designs/charactor/hmr_siege_breaker/hmr_siege_breaker_three_view_weapon_sheet.png",
+      "weapons": [
+        {
+          "id": "heavy_railgun",
+          "role": "primary",
+          "mount": "backpack",
+          "gameplay": {
+            "damage": 170,
+            "fireRate": 0.9,
+            "range": 120
+          }
+        },
+        {
+          "id": "missile_pod",
+          "role": "secondary",
+          "mount": "shoulder_backpack",
+          "gameplay": {
+            "volleyCount": 7,
+            "damage": 34,
+            "blastRadius": 2.7
+          }
+        }
+      ],
+      "fileSizeBytes": 585728
+    }
+  ],
+  "materialPalette": {
+    "armorWhite": "#d8d5ca",
+    "armorWhiteClean": "#e4e0d2",
+    "armorGray": "#9ea0a0",
+    "wornEdge": "#f0eadc",
+    "darkScuff": "#2b2d2c",
+    "rubberCable": "#050607",
+    "warningAmber": "#ffb447",
+    "gunmetal": "#15191c",
+    "blackJoint": "#07090a",
+    "redMark": "#b64032",
+    "cyanGlass": "#38c7d8",
+    "amberGlow": "#e1a743",
+    "violetLight": "#8a6cff",
+    "redHeat": "#ff4d32",
+    "shieldAmber": "#e1a743",
+    "smokedMembrane": "#1f2a2d",
+    "collisionHint": "#42d8ff"
+  }
+}
