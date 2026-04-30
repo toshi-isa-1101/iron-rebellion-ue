@@ -1,0 +1,36 @@
+# Unreal generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Build output
+Build/Receipts/
+Build/*/FileOpenOrder/
+
+# User and machine local files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.user
+*.rsuser
+*.tmp
+*.log
+
+# IDE folders
+.vs/
+.vscode/
+.idea/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+
+# Packaged builds
+Packages/
+Releases/
+Windows/
+WindowsNoEditor/
